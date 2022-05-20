@@ -1,0 +1,58 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        </style>
+  </head>
+    <body>
+       <script>
+           function Multiplicar(){
+               
+               res.value= parseInt(v1.value)
+               *parseInt(v2.value);
+           }
+           function Salvar(){
+       var Descrição = par.children  ("Coca cola");
+      var Quantidade = par.children("")
+      var Preço = par.children("");
+ 
+
+           }
+       </script>
+        <h1>Produto</h1>
+        Descrição: <input type="text"><br>
+        Quantidade: <input type="text" id="v1" onblur="Soma()" value="0"><br>
+        Preço: <input type="text" id="v2" onblur="Soma()" value="0"><br>
+        Calcular: <input type="button"  onclick="Multiplicar()"><br>
+        Salvar: <input type="button"  onclick="Salvar()"
+        ><br>
+        Preço total: <input type="text" id="res" onblur="Soma()" value="0" readonly><br>
+        <table style="width: 800px;">
+            <tr>
+              <th>Descrição</th>
+              <th>Quantidade</th> 
+              <th>Preço</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+            </tr>
+          </table>
+
+</body>
+    </html>
