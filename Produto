@@ -1,0 +1,23 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   
+  </head>
+    <body>
+       <script>
+           function multiplicar(){
+               alert("Eu calcular a soma dos produtos!!")
+               res.value= parseInt(v1.value)
+               *parseInt(v2.value);
+           }
+
+       </script>
+        <h1>Produto</h1>
+        Descrição: <input type="text"><br>
+        Quantidade: <input type="text" id="v1" onblur="Soma()" value="0"><br>
+        Preço unitário: <input type="text" id="v2" onblur="Soma()" value="0"><br>
+        Calcular: <input type="button"  onclick="multiplicar()"><br>
+        Preço total: <input type="text" id="res" onblur="Soma()" value="0" readonly><br>
+    
+</body>
+    </html>
